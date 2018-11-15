@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Create a Guide!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <script src='https://cloud.tinymce.com/stable/tinymce.min.js'></script> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="userInput.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script type="text/javascript" language="javascript" src="userInput.js"></script>
+    <!-- <script>
+        tinymce.init({
+            selector: '#mytextarea'
+        });
+    </script> -->
+</head>
+<body>
+    <div class="theWrapper">
+        <div class="uiHeader">
+            <h2>Create a Guide!</h2>
+        </div>
+    
+
+
+        <form class="uiForm" action="/" method="POST">
+            Name: <input type="text" id="nodeName" class="nodeName"><br><br>
+            <!-- <div class="nameDisplay" id="nameDisplay"></div><br><br> -->
+            <!-- Category:<br>
+            <select id="categoryName" class="categoryName" name="categoryName">
+                <option value="" disabled selected>Please select a category.</option>
+                <option value="advertisingMarketingLaw">Advertising and Marketing Law</option>
+                <option value="employmentLaw">Employment Law</option>
+                <option value="financeLaw">Finance Law</option>
+                <option value="healthCareLaw">Health Care Law</option>
+                <option value="ipLaw">IP Law</option>
+                <option value="onlineLaw">Online Business Law</option>
+                <option value="privacyLaw">Privacy Law</option>
+                <option value="taxLaw">Tax Law</option>
+            </select><br><br>
+            Sub-Category:<br>
+            <select id="subCategoryName" class="subCategoryName" name="subCategoryName">
+                <option value="" disabled selected>Please select a category.</option>
+            </select><br><br>
+            <div class="type_fields_wrap">
+                <button type="button" class="addNewContentBtn" id="addNewContentBtn">Add New Content</button>
+                <div><input type="text" name="mytext[]"></div>
+            </div><br> -->
+            <!-- Type:<br>
+            <select type="hidden" id="nodeType" class="nodeType" name="nodeType">
+                <option class="typePlaceHolder" value="" disabled selected>Please select a type.</option>
+                <option value="image">Image</option>
+                <option value="question">Question</option>
+                <option value="text">Text</option>
+                <option value="video">Video</option>
+            </select><br><br> -->
+            Header Question/Text:<br><input type="text" id="nodeText" class="nodeText" name="nodeText" placeholder='ex: "What is your favorite color?" **50 chars max.**'><br><br>
+            Details:<br><textarea id="nodeDetails" class="nodeDetails" name="nodeDetails" maxlength="500" placeholder='ex: "The property possessed by an object of producing different sensations on the eye as a result of the way the object reflects or emits light." **500 chars max.**'></textarea><br><br>
+            <!-- <div class="input_fields_wrap">
+                <button type="button" class="addChoiceFieldBtn" id="addChoiceFieldBtn">Add More Choice Fields</button>
+                <div><input type="text" name="mytext[]"></div>
+            </div><br><br> -->
+            Choice 1:<br><input id="nextNodeChoice1" class="nextNodeChoice1" type="text" name="choice1" placeholder='ex: "My favorite color is green!" **30 chars max.**'><br><br>
+            Choice 2:<br><input id="nextNodeChoice2" class="nextNodeChoice2" type="text" name="choice2" placeholder='ex: "My favorite color is blue!" **30 chars max.**'><br><br>
+            Choice 3:<br><input id="nextNodeChoice3" class="nextNodeChoice3" type="text" name="choice3" placeholder='ex: "My favorite color is red!" **30 chars max.**'><br><br>
+            Choice 4:<br><input id="nextNodeChoice4" class="nextNodeChoice4" type="text" name="choice4" placeholder='ex: "My favorite color is blue!" **30 chars max.**'><br><br>
+            Choice 5:<br><input id="nextNodeChoice5" class="nextNodeChoice5" type="text" name="choice5" placeholder='ex: "My favorite color is red!" **30 chars max.**'><br><br>
+            <input type="submit" id="uiSubmitBtn" class="uiSubmitBtn" value="Submit">
+        </form>
+
+
+
+
+    
+    </div>
+    
+</body>
+</html>

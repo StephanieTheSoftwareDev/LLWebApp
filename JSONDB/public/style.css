@@ -1,0 +1,101 @@
+.titleHeader{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.theMessages{
+    text-align: center;
+}
+
+
+
+/* ~~~~*******~~~~ Start of BUTTONS ~~~~*******~~~~ */
+.btnGroup{
+    text-align: center;
+}
+.btn{
+    border: 1px solid #F58406;
+    background-color: #F58406;
+    font-size: 15px;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 2px;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 50px;
+    box-shadow: -5px 5px 5px #888888;
+}
+.btn:active{
+    border: 1px solid #F58406;
+    background-color: #F58406;
+    /* border: 1px solid rgb(96, 88, 83);
+    background-color: rgb(96, 88, 83); */
+    box-shadow: -5px 1px 7px #454444 inset;
+}
+.btn:hover{
+    border: 1px solid #F58406;
+    background-color: #F58406;
+    /* border: 1px solid rgb(96, 88, 83);
+    background-color: rgb(96, 88, 83); */
+    box-shadow: -5px 1px 7px #454444 inset;
+}
+.btn:visited{
+    border: 1px solid #F58406;
+    background-color: #F58406;
+    box-shadow: -5px 5px 5px #888888;
+}
+
+/* !!!!!!!!!!!!!! End of BUTTONS !!!!!!!!!!!!!! */
+
+
+
+
+
+
+p{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.detailsWrapper{
+    width: 100%;
+    height: 430px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.detailsOfNode{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 700px;
+    height: 425px;
+    text-align: center;
+}
+.wrapper{
+    padding: 25px;
+    text-align: center;
+    height: 2000px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.tooltipLinks:link{
+    color: black;
+    text-decoration: none;
+}
+.tooltipLinks:visited{
+    color: black;
+    text-decoration: none;
+}
+span{
+    text-shadow: -.5px 1px 1px #888888;
+}
+
+.whiteLinks{
+    color: white;
+}

@@ -1,0 +1,389 @@
+{
+  "guide2": [
+    {
+      "id": 0,
+      "name": "why",
+      "nodeName": "text",
+      "nodeText": "Why are you here today?",
+      "nodeDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "nextNodes": [
+        {
+          "choice1": "I have a cold.",
+          "id": 1
+        },
+        {
+          "choice2": "I have the flu.",
+          "id": 2
+        },
+        {
+          "choice3": "I have a cough.",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nodeName": "cold",
+      "nodeType": "text",
+      "nodeText": "Do you have a cold?",
+      "nodeDetails": "<video width='320' height='240' controls><source src='cuteanimaleating.mp4' type='video/mp4'></video><p>Lorem ipsum dolor sit amet, consectetur <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+      "nextNodes": [
+        {
+          "choice1": "Yes, I have a cold",
+          "id": 4
+        },
+        {
+          "choice2": "No, I do not have a cold.",
+          "id": 5
+        },
+        {
+          "choice3": "I don't know if I have a cold.",
+          "id": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nodeName": "flu",
+      "nodeType": "text",
+      "nodeText": "Do you have the flu?",
+      "nodeDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "nextNodes": [
+        {
+          "choice1": "Yes, I have the flu.",
+          "id": 7
+        },
+        {
+          "choice2": "No, I do not have flu.",
+          "id": 8
+        },
+        {
+          "choice3": "I don't know if I have flu.",
+          "id": 9
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nodeName": "cough",
+      "nodeType": "text",
+      "nodeText": "Do you have a cough?",
+      "nodeDetails": "Lorem ipsum dolor sit <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "nextNodes": [
+        {
+          "choice1": "Yes, I have a cough.",
+          "id": 10
+        },
+        {
+          "choice2": "No, I do not have a cough.",
+          "id": 11
+        },
+        {
+          "choice3": "I don't know if I have a cough.",
+          "id": 12
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nodeName": "yesCold",
+      "nodeType": "text",
+      "text": "Eek! You have a cold!",
+      "nodeDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "nextNodes": [
+        {
+          "choice1": "Yes, I have a cold.",
+          "id": 400
+        },
+        {
+          "choice2": "No, I do not have a cold.",
+          "id": 500
+        },
+        {
+          "choice3": "I don't know if I have a cold.",
+          "id": 600
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nodeName": "noCold",
+      "nodeType": "text",
+      "nodeText": "Yay! You don't have a cold!",
+      "nodeDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> commodo consequat.",
+      "nextNodes": [
+        {
+          "choice1": "Yes, I have a cough",
+          "id": 400
+        },
+        {
+          "choice2": "No, I do not have a cough.",
+          "id": 500
+        },
+        {
+          "choice3": "I don't know if I have a cough.",
+          "id": 600
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nodeName": "idkCold",
+      "nodeType": "text",
+      "nodeText": "Ok, so you're not so sure what a cold is...",
+      "nodeDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "nextNodes": [
+        {
+          "choice1": "I know what a cold is.",
+          "id": 400
+        },
+        {
+          "choice2": "I don't know what a cold is.",
+          "id": 500
+        },
+        {
+          "choice3": "I don't know if I don't know what a cold is.",
+          "id": 600
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nodeName": "yesFlu",
+      "nodeType": "text",
+      "nodeText": "Eek! You have the flu!",
+      "nodeDetails": "Lorem ipsum dolor sit amet, consectetur <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> aliquip ex ea commodo consequat.",
+      "nextNodes": [
+        {
+          "choice1": "Yes, I have the flu.",
+          "id": 400
+        },
+        {
+          "choice2": "No, I do not have the flu.",
+          "id": 500
+        },
+        {
+          "choice3": "I don't know if I have the flu.",
+          "id": 600
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nodeName": "noFlu",
+      "nodeType": "text",
+      "nodeDetails": "Lorem ipsum <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> consequat.",
+      "nodeText": "Yay! You don't have the flu!",
+      "nextNodes": [
+        {
+          "choice1": "Yes, I have the flu.",
+          "id": 400
+        },
+        {
+          "choice2": "No, I do not have the flu.",
+          "id": 500
+        },
+        {
+          "choice3": "I don't know if I have the flu.",
+          "id": 600
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nodeName": "idkFlu",
+      "nodeType": "text",
+      "nodeText": "Ok, so you're not so sure what the flu is...",
+      "nodeDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> laboris nisi ut aliquip ex ea commodo consequat.",
+      "nextNodes": [
+        {
+          "choice1": "I know what the flu is.",
+          "id": 400
+        },
+        {
+          "choice2": "I don't know what the flu is.",
+          "id": 500
+        },
+        {
+          "choice3": "I don't know if I don't know what the flu is.",
+          "id": 600
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nodeName": "phlegm",
+      "nodeType": "text",
+      "nodeText": "What color is your phlegm?",
+      "nodeDetails": "<img src='LincolnTheLion.jpg' height='200'><br><br><p>Lorem ipsum dolor sit amet, consectetur <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+      "nextNodes": [
+        {
+          "choice1": "My phlegm is clear.",
+          "id": 11
+        },
+        {
+          "choice2": "My phlegm is yellow or green.",
+          "id": 12
+        },
+        {
+          "choice3": "My phlegm is blue?!",
+          "id": 13
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nodeName": "phlegmClear",
+      "nodeType": "text",
+      "nodeText": "What color is your phlegm?",
+      "nodeDetails": "<p>Lorem ipsum dolor sit amet, <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> commodo consequat.</p",
+      "nextNodes": [
+        {
+          "choice1": "My phlegm is clear.",
+          "id": 700
+        },
+        {
+          "choice2": "My phlegm is yellow or green.",
+          "id": 800
+        },
+        {
+          "choice3": "My phlegm is blue?!",
+          "id": 900
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "nodeName": "phlegmYG",
+      "nodeType": "text",
+      "nodeText": "What color is your phlegm?",
+      "nodeDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> ex ea commodo consequat.",
+      "nextNodes": [
+        {
+          "choice1": "My phlegm is clear.",
+          "id": 700
+        },
+        {
+          "choice2": "My phlegm is yellow or green.",
+          "id": 800
+        },
+        {
+          "choice3": "My phlegm is blue?!",
+          "id": 900
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "nodeName": "phlegmBlue",
+      "nodeType": "text",
+      "nodeText": "WHOA! Your plegm is blue?! Go to the Doctor's office ASAP!!",
+      "nodeDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span data-toggle='tooltip' data-placement='top' title='In English: Blah blah blah.'><a href='/legalese/legalese.html' class='tooltipLinks'>legalese</a></span> nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "nextNodes": [
+        {
+          "choice1": "I'll make an appt.",
+          "id": 14
+        },
+        {
+          "choice2": "I gotta go to the ER!",
+          "id": 800
+        },
+        {
+          "choice3": "Eh, I'll take my chances.",
+          "id": 900
+        }
+      ]
+    },
+    {
+      "nodeName": "appt",
+      "nodeText": "Yes, I'll make an appointment!",
+      "nodeDetails": "Blah blah appt, blah blah.",
+      "nextNodes": [
+        {
+          "choice1": "Continue",
+          "id": "15"
+        }
+      ],
+      "id": 14
+    },
+    {
+      "nodeText": "bob",
+      "nextNodes": [
+        {
+          "choice1": "bob",
+          "id": ""
+        },
+        {
+          "choice2": "bob",
+          "id": ""
+        },
+        {
+          "choice3": "bob",
+          "id": ""
+        },
+        {
+          "choice4": "bob",
+          "id": ""
+        },
+        {
+          "choice5": "bob",
+          "id": ""
+        }
+      ],
+      "id": 15
+    },
+    {
+      "nodeText": "susan",
+      "nextNodes": [
+        {
+          "choice1": "susan",
+          "id": ""
+        },
+        {
+          "choice2": "susan",
+          "id": ""
+        },
+        {
+          "choice3": "",
+          "id": ""
+        },
+        {
+          "choice4": "",
+          "id": ""
+        },
+        {
+          "choice5": "",
+          "id": ""
+        }
+      ],
+      "id": 16
+    },
+    {
+      "nodeText": "tom",
+      "nodeDetails": "tom",
+      "nextNodes": [
+        {
+          "choice1": "tom",
+          "id": ""
+        },
+        {
+          "choice2": "tom",
+          "id": ""
+        },
+        {
+          "choice3": "tom",
+          "id": ""
+        },
+        {
+          "choice4": "",
+          "id": ""
+        },
+        {
+          "choice5": "",
+          "id": ""
+        }
+      ],
+      "id": 17
+    }
+  ]
+}

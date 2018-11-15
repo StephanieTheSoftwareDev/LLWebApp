@@ -1,0 +1,44 @@
+.boxes{
+    border: 1px solid rgb(50, 50, 50);
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 50px;
+    
+}
+.boxDiv{
+    width: 1050px;
+    height: 1050px;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.guide{
+    width: 75%;
+    height: 400px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid rgb(50, 50, 50);
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+.bottomTextBox{
+    margin-top: 50px;
+    border: 1px solid rgb(50, 50, 50);
+    width: 75%;
+    height: 200px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.wrapper{
+    padding: 25px;
+    text-align: center;
+    height: 2000px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}

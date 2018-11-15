@@ -1,0 +1,114 @@
+{
+  "guide1": [
+    {
+      "nodeText": "Worried someone might steal your idea?",
+      "nodeDetails": "If you have a creative idea, invention, design, name, or artistic work, are you thinking of protecting it?",
+      "nextNodes": [
+        {
+          "choice1": "Yes",
+          "id": "2"
+        },
+        {
+          "choice2": "No",
+          "id": ""
+        },
+        {
+          "choice3": "Unsure",
+          "id": ""
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nodeText": "Do you have a copyright question?",
+      "nodeDetails": "Is it a piece of literature, music, drama, play, choreography, pictorial work, graphic and sculpture, motion picture, sound recording, or architectural work? ",
+      "nextNodes": [
+        {
+          "choice1": "Yes",
+          "id": ""
+        },
+        {
+          "choice2": "No",
+          "id": "3"
+        },
+        {
+          "choice3": "Unsure",
+          "id": ""
+        }
+      ],
+      "id": 2
+    },
+    {
+      "nodeText": "Do you have a patent question?",
+      "nodeDetails": "Did you invent a new and useful process, machine, way to manufacture something, or composition of matter that includes chemical, mechanical, or electrical processes or products? ",
+      "nextNodes": [
+        {
+          "choice1": "Yes",
+          "id": ""
+        },
+        {
+          "choice2": "No",
+          "id": "4"
+        },
+        {
+          "choice3": "Unsure",
+          "id": ""
+        }
+      ],
+      "id": 3
+    },
+    {
+      "nodeText": "Do you have a trade secret question?",
+      "nodeDetails": "Do you have some valuable information that is related to your business that you’ve been keeping a secret? ",
+      "nextNodes": [
+        {
+          "choice1": "Yes",
+          "id": ""
+        },
+        {
+          "choice2": "No",
+          "id": "5"
+        },
+        {
+          "choice3": "Unsure",
+          "id": ""
+        }
+      ],
+      "id": 4
+    },
+    {
+      "nodeText": "Is it a distinctive word, phrase, logo, symbol, shape, sound, fragrance, or color to identify goods or services?",
+      "nodeDetails": "",
+      "nextNodes": [
+        {
+          "choice1": "Yes",
+          "id": "6"
+        },
+        {
+          "choice2": "No",
+          "id": ""
+        },
+        {
+          "choice3": "Unsure",
+          "id": ""
+        }
+      ],
+      "id": 5
+    },
+    {
+      "nodeText": "",
+      "nodeDetails": "Yes, I have a trademark issue. We can help with that!  Are you interested in…",
+      "nextNodes": [
+        {
+          "choice1": "Registering a new mark?",
+          "id": ""
+        },
+        {
+          "choice2": "Enforcing rights in a mark you already own?",
+          "id": ""
+        }
+      ],
+      "id": 6
+    }
+  ]
+}

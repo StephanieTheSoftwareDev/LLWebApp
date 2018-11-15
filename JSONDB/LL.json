@@ -1,0 +1,83 @@
+{
+    "allpages": [
+    {
+    "pages": [
+        {
+            "id": 1,
+            "name": "why",
+            "nodeType": "text",
+            "text" : "Why are you here today?",
+            "nextNode1": {
+                "choice": "I have a cold.",
+                "id": 2
+            },
+            "nextNode2": {
+                "choice": "I have the flu.",
+                "id": 3
+            },
+            "nextNode3": {
+                "choice": "I have a cough.",
+                "id": 4
+            }
+        },
+        {
+            "id": 4,
+            "name": "cough",
+            "nodeType": "text",
+            "text": "Do you have a cough?",
+            "nextNodes": {
+                "choice": "Yes, I have a cough",
+                "id": 5
+            },
+            "nextNode2": {
+                "choice": "No, I do not have a cough.",
+                "id": 6
+            },
+            "nextNode3": {
+                "choice": "I don't know if I have a cough.",
+                "id": 7
+            }
+        }
+    ],
+    "pages1": [
+        {
+            "id": 1,
+            "name": "why",
+            "nodeType": "text",
+            "text": "Why are you here today?",
+            "nextNode1": {
+                "choice": "I have a cold.",
+                "id": 2
+            },
+            "nextNode2": {
+                "choice": "I have the flu.",
+                "id": 3
+            },
+            "nextNode3": {
+                "choice": "I have a cough.",
+                "id": 4
+            }
+        },
+        {
+            "id": 4,
+            "name": "cough",
+            "nodeType": "text",
+            "text": "Do you have a cough?",
+            "nextNodes": {
+                "choice": "Yes, I have a cough",
+                "id": 5
+            },
+            "nextNode2": {
+                "choice": "No, I do not have a cough.",
+                "id": 6
+            },
+            "nextNode3": {
+                "choice": "I don't know if I have a cough.",
+                "id": 7
+            }
+        }
+    ]
+}
+]
+    
+}

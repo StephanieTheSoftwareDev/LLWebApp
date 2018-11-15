@@ -1,0 +1,78 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "name": "why",
+      "nodeType": "text",
+      "text": "Why are you here today?",
+      "nextNodes": [
+        {
+          "choice": "I have a cold.",
+          "id": 2
+        },
+        {
+          "choice": "I have the flu.",
+          "id": 3
+        },
+        {
+          "choice": "I have a cough.",
+          "id": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "cough",
+      "nodeType": "text",
+      "text": "Do you have a cough?",
+      "nextNodes": {
+        "choice": "Yes, I have a cough",
+        "id": 5
+      },
+      "nextNode2": {
+        "choice": "No, I do not have a cough.",
+        "id": 6
+      },
+      "nextNode3": {
+        "choice": "I don't know if I have a cough.",
+        "id": 7
+      }
+    },
+    {
+      "id": 5,
+      "name": "phlegm",
+      "nodeType": "text",
+      "text": "What color is your phlegm?",
+      "nextNode1": {
+        "choice": "My phlegm is clear.",
+        "id": 8
+      },
+      "nextNode2": {
+        "choice": "My phlegm is yellow or green.",
+        "id": 9
+      },
+      "nextNode3": {
+        "choice": "My phlegm is blue?!",
+        "id": 10
+      }
+    },
+    {
+      "id": 11,
+      "name": "phlegmColor",
+      "nodeType": "text",
+      "text": "WHOA! Go to the Doctor's office ASAP!!",
+      "nextNode1": {
+        "id": 18
+      },
+      "nextNode2": {
+        "id": 99
+      },
+      "nextNode3": {
+        "id": 100,
+        "name": "cough",
+        "nodeType": "text",
+        "text": "I have a cough."
+      }
+    }
+  ]
+}

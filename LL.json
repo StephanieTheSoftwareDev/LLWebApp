@@ -1,0 +1,64 @@
+{
+    "id": 7,
+    "name": "why",
+    "nodeType": "text",
+    "text" : "Why are you here today?",
+    "nextNode1": {
+        "id": 8
+    },
+    "nextNode2": {
+        "id": 9
+    },
+    "nextNode3": {
+        "id": 10
+    }
+},
+{
+    "id": 8,
+        "name": "cold",
+        "nodeType": "text",
+        "text": "I have a cold."
+    "nextNodes": {
+        "id": 12,
+    }
+    "nextNode2": {
+        "id": 13,
+    }
+    "nextNode3: {
+        "id": 14,
+    }
+},
+{
+    "id": 9,
+        "name": "flu",
+        "nodeType": "text",
+        "text": "I have the flu."
+    "nextNode1": {
+        "id": 15,
+    }
+    "nextNode2": {
+        "id": 16,
+    }
+    "nextNode3: {
+        "id": 17,
+    }
+},
+{
+    "id": 10,
+    "name": "cough",
+    "nodeType": "text",
+    "text" : "Do you have a cough?",
+    "nextNode1": {
+        "id": 18,
+    }
+    "nextNode2": {
+        "id": 9,
+
+    }
+    "nextNode3: {
+        "id": 10,
+        "name": "cough",
+        "nodeType": "text",
+        "text": "I have a cough."
+    }
+},
