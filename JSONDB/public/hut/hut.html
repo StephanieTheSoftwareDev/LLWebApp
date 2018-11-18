@@ -5,28 +5,317 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Hut</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="hut.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script type="text/javascript" language="javascript" src="hut.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css"> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="hut.css" />
 </head>
 <body>
 
     <div class="wrapper">
-        <div class="guide">
-            <h2>Guide</h2>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="http://localhost:3000"><img id="LLPNGCopy" src="../LLPNGcopy.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="IPLaw_Hut_Div">
+            <h2 id="ipLawHutPageHeader" class="thePageHeader">Trademark Hut: <span class="boldedSpan">Registering a New Mark</span></h2>
+        <br><br>
+            <div class="helpYourself">
+                <p>Trademark Law blah blah blah. Blah blah blah. Blah blah blah blah blah blah. Trademark Law blah blah blah. Blah blah blah. Blah blah blah blah blah blah. Trademark Law blah blah blah. Blah blah blah. Blah blah blah blah blah blah. Trademark Law blah blah blah. Blah blah blah. Blah blah blah blah blah blah.</p>
+                <br><br><br>
+                <h5>Here's How You Can Help Yourself:</h3>
+                <br>
+                <ul class="topList">
+                    <li><a href="#boxDiv1">Make Sure It's a Strong Mark</a></li>
+                    <br>
+                    <li><a href="#boxDiv2">Make Sure You Have the Right to Use</a></li>
+                    <br>
+                    <li><a href="#boxDiv3">Determine What Type of Mark You Have</a></li>
+                    <br>
+                    <li><a href="#boxDiv4">Secure Common Law Rights Without Registering</a></li>
+                    <br>
+                    <li><a href="#boxDiv5">Learn the Benefits of Registering a Trademark</a></li>
+                    <br>
+                    <li><a href="#boxDiv6">Take Steps to Official Registration</a></li>
+                </ul>
+            
+            </div>
+            <br><br><br>
         </div>
-        <div class="boxDiv">
-            <h2>Categories</h2>
-            <div class="boxes" id="box1">Category 1</div>
-            <div class="boxes" id="box2">Category 2</div>
-            <div class="boxes" id="box3">Category 3</div>
-            <div class="boxes" id="box4">Category 4</div>
+        <hr width="80%">
+        <div class="boxDiv" id="boxDiv1">
+            
+            <h2 class="thePageHeader">Make Sure It's a Strong Mark</h2>
+            <br><br>
+            <div class="helpYourself">
+            <p>Distinctive marks are strong, and strong marks gain the most protection. Marks that are considered “fanciful” are
+                considered the strongest marks, and they are given the greatest protection. Generic marks won’t get trademark
+                protection.
+            </p>
+                <br><br><br><br>
+            <div class="row">
+                <div class="col-4">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-fanciful-list" data-toggle="list" href="#list-fanciful"
+                            role="tab" aria-controls="fanciful">Fanciful Marks</a>
+                        <a class="list-group-item list-group-item-action" id="list-arbitrary-list" data-toggle="list" href="#list-arbitrary"
+                            role="tab" aria-controls="arbitrary">Arbitrary Marks</a>
+                        <a class="list-group-item list-group-item-action" id="list-suggestive-list" data-toggle="list" href="#list-suggestive"
+                            role="tab" aria-controls="suggestive">Suggestive Marks</a>
+                        <a class="list-group-item list-group-item-action" id="list-descriptive-list" data-toggle="list" href="#list-descriptive"
+                            role="tab" aria-controls="descriptive">Descriptive Marks</a>
+                        <a class="list-group-item list-group-item-action" id="list-generic-list" data-toggle="list" href="#list-generic"
+                        role="tab" aria-controls="generic">Generic Marks</a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-fanciful" role="tabpanel" aria-labelledby="list-fanciful-list">
+                        <span class="boldedSpan">Fanciful Marks</span><br><br>
+                            A fanciful mark gains the most protection because it was invented solely to serve as a trademark and has no other
+                            meaning. Examples are “Google” and “Uber.”
+                            <br><br>
+                            These words are typically unknown or completely outside of common usage.
+                        </div>
+
+                        <div class="tab-pane fade" id="list-arbitrary" role="tabpanel" aria-labelledby="list-arbitrary-list">
+                        <span class="boldedSpan">Arbitrary Marks</span><br><br>
+                            Arbitrary marks are also strong. These words are common but are used in an uncommon way, and do not describe or suggest
+                            the product or service.
+                            <br><br>
+                            An example is “Apple” to describe computers.
+                        </div>
+
+                        <div class="tab-pane fade" id="list-suggestive" role="tabpanel" aria-labelledby="list-suggestive-list">
+                        <span class="boldedSpan">Suggestive Marks</span><br><br>
+                            Suggestive marks require people to imagine what the nature of a product or service might be.
+                            <br>
+                            For example, “Microsoft”
+                            suggests software, but it is not a literal description of it.
+                        </div>
+
+                        <div class="tab-pane fade" id="list-descriptive" role="tabpanel" aria-labelledby="list-descriptive-list">
+                        <span class="boldedSpan">Descriptive Marks</span><br><br>
+                            Descriptive marks are those that clearly describe a product or service, and no additional thought or imagination is
+                            required to determine what the product or service is.
+                            <br><br>
+                            Descriptive marks are weak and do not qualify for trademark
+                            protection, unless a secondary meaning has developed over time. An example is “Smith’s Plumbing.”
+                        </div>
+
+                        <div class="tab-pane fade" id="list-generic" role="tabpanel" aria-labelledby="list-generic-list">
+                            <span class="boldedSpan">Generic Marks</span><br><br>
+                            Generic marks are terms that cannot be used as trademarks. For example, “email” would be a generic mark.
+                            <br><br>
+                            Trademarks can
+                            become generic if the public misuses the mark to generally identify goods or services.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>
-        <div class="bottomTextBox">
-            <h2>Bottom Text Box</h2>
+        <hr width="80%">
+        <div class="boxDiv" id="boxDiv2">
+            <h2 class="thePageHeader">Make Sure You Have the Right to Use</h2>
+            <br><br>
+            <p class="helpYourself">Before selecting a mark, you should determine whether you can register it with the United States Patent and Trademark
+            Office. Business owners invest time and money building the reputation associated with the trademark. For this reason,
+            failure to do a comprehensive trademark search at the beginning of operations is unwise. Someone else might already
+            have rights in a trademark that is similar to a name you are considering for your product or service, and if you fail
+            to do a search, you take a risk that you will receive a notice from such trademark owner that demands that you stop
+            using the trademark and start over. Further, you could be served with a lawsuit and need to hire an attorney, which can
+            be very time consuming and costly. By conducting a trademark search ahead of time, you protect your company's
+            investment in building the brand.</p>
+            <br><br><br>
+            <h5 class="h5Class"><span class="boldedSpan">Conduct a Trademark Search</span></h5>
+            <br>
+            <p class="helpYourself">Search federal, state, and online databases to make sure someone else does not already have rights to use your proposed
+                mark. A federal search can be done for free on the USPTO website using the Trademark Electronic Search System (TESS)
+                here: <a href="http://tmsearch.uspto.gov/bin/gate.exe?f=tess&state=4804:501x3z.1.1">tmsearch.USPTO.gov</a>
+                When a trademark is federally registered with the USPTO, a court will assume the defendant knew it was federally
+                registered. A defendant may be required to pay damages and the trademark owner's attorney's fees.
+                In many states, the trademark database is part of the Secretary of State's office, but in some states, it is a
+                separate department. In CA, info can be found here: <a href="https://www.sos.ca.gov/business-programs/ts/">sos.ca.gov</a>
+                
+                It is also a good idea to search for unregistered trademarks via a basic online Google search to see if anyone is
+                using
+                the mark for a similar purpose. You may conduct a basic domain search here: <a href="https://whois.icann.org/en">WHOIS.ICANN.org</a>
+                </p>
+            <br><br><br>
+            <h5 class="h5Class"><span class="boldedSpan">Use in Commerce Reqs</span></h5>
+            <br>
+            <p class="helpYourself">
+                Basic rights in the trademark are created simply by using the trademark in business. This use must be in alignment
+                with
+                trademark law, such as exercising "good faith." The USPTO also allows trademark filings for an ‘intent-to-use’
+                application, when the company is planning on using the mark in the future. This can be helpful for a startup or
+                entrepreneur.
+            </p>
         </div>
-    </div>
-    
+        <hr width="80%">
+        <div class="boxDiv" id="boxDiv3">
+            <h2 class="thePageHeader">Determine What Type of Mark You Have</h2>
+            <br><br><br><br>
+            <div class="helpYourself">
+            <div class="row">
+                <div class="col-4">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-trademark-list" data-toggle="list" href="#list-trademark"
+                            role="tab" aria-controls="home">Trademark</a>
+                        <a class="list-group-item list-group-item-action" id="list-serviceMark-list" data-toggle="list" href="#list-serviceMark"
+                            role="tab" aria-controls="serviceMark">Service Mark</a>
+                        <a class="list-group-item list-group-item-action" id="list-certificationMark-list" data-toggle="list" href="#list-certificationMark"
+                            role="tab" aria-controls="certificationMark">Certification Mark</a>
+                        <a class="list-group-item list-group-item-action" id="list-collectiveMark-list" data-toggle="list" href="#list-collectiveMark"
+                            role="tab" aria-controls="collectiveMark">Collective Mark</a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-trademark" role="tabpanel" aria-labelledby="list-trademark-list">
+                            <span class="boldedSpan">Trademark</span><br><br>
+                            Trademarks are words, phrases, symbols, designs, or a combination that can be used to identify and distinguish the
+                            source of goods. A trademark is often the most important intangible asset that a company owns.
+                        </div>
+            
+                        <div class="tab-pane fade" id="list-serviceMark" role="tabpanel" aria-labelledby="list-serviceMark-list">
+                            <span class="boldedSpan">Service Mark</span><br><br>
+                            Service marks are words, phrases, symbols, designs, or a combination that are used to identify and distinguish the
+                            source of services.
+                        </div>
+            
+                        <div class="tab-pane fade" id="list-certificationMark" role="tabpanel" aria-labelledby="list-certificationMark-list">
+                            <span class="boldedSpan">Certification Mark</span><br><br>
+                            Certification marks certify that goods or services have certain characteristics, origin, or that certain standards are
+                            upheld in manufacturing.
+                            <br><br>
+                            An example of a certification mark is the Good Housekeeping Seal of Approval.
+                        </div>
+            
+                        <div class="tab-pane fade" id="list-collectiveMark" role="tabpanel" aria-labelledby="list-collectiveMark-list">
+                            <span class="boldedSpan">Collective Marks</span><br><br>
+                            Organizations sometimes use words, phrases, symbols, designs, or a combination that show that the person displaying the
+                            mark is a member. The organization is the mark’s owner.
+                            <br><br>
+                            In order to belong to a group and use the collective mark, a
+                            member usually pays a membership fee and follows rules. Collective membership marks can help the public know whether a
+                            business is affiliated with a group.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <hr width="80%">
+        <div class="boxDiv" id="boxDiv4">
+            <h2 class="thePageHeader">Your Common Law Rights Without Registering</h2>
+            <br><br><br><br>
+            <p class="helpYourself">Ownership of a mark gives the owner the right to exclude others from using similar marks if those marks may cause
+            confusion. The laws surrounding unregistered marks are derived from principles of unfair competition or unfair
+            business. Specifically, it is considered unfair for somebody to trade on the goodwill you have built up around a mark
+            in order to sell competing goods or services.
+            <br><br><br>
+            Using a trademark in commerce gives you rights under “common law." This means that you may be able to stop others from
+            using your mark if they started using it after you, and if they are selling similar products or services. Unregistered
+            marks are protected within a particular geographic area and reasonable extensions only.
+            <br><br><br>
+            You can claim trademark rights
+            in your unregistered trademark as long as it is distinctive and identifies or distinguishes your products or services.
+            A trade name for your business is not the same as an unregistered trademark and is not given the same protections under
+            federal trademark law.
+            </p>
+        </div>
+        <hr width="80%">
+        <div class="boxDiv" id="boxDiv5">
+            <h2 class="thePageHeader">Benefits of Registering a Trademark</h2>
+            <br><br><br><br>
+            <p class="helpYourself">
+                A trademark is a form of intellectual property, an asset that adds value to a business.
+                Registration can become valuable after a business grows, even if the value is not immediately apparent.
+                <br><br><br>
+                There are numerous advantages to registering a trademark including nationwide protection, ability to file a lawsuit against an
+                infringer in federal court, incontestable status after five years of registration, presumption of ownership, enhanced
+                remedies, and constructive notice of ownership to others around the nation. Incontestability can be helpful because a
+                trademark cannot be attacked for being merely “descriptive,” even if it is.
+                <br><br><br>
+                Registration may also help when fighting
+                for a domain name. The trademark owner can use the registration as a basis for registration abroad, and file the
+                registration with the U.S. Customs Service to stop others from importing infringing foreign goods.
+            </p>
+        </div>
+        <hr width="80%">
+        <div class="boxDiv" id="boxDiv6">
+            <h2 class="thePageHeader">Official Registration</h2>
+            <br><br>
+            <h5 class="h5Class">Prior to filing, gather the following information:</h5>
+            <br>
+            <ul class="helpYourself">
+                <li>Name(s) of the applicant(s)</li>
+                <li>Address of the applicant</li>
+                <li>Citizenship of the applicant(s), or, if the applicant is a corporation, association, partnership, or other entity, the
+                jurisdiction under the laws of which the applicant is organized</li>
+                <li>If the applicant is a domestic partnership, the names and citizenship of the general partners</li>
+                <li>If the applicant is a domestic joint venture, the names and citizenship of the active members of the joint venture</li>
+                <li>One or more bases for filing the application. Have you used it in commerce or do you have intent-to-use?</li>
+                <li>A list of the particular goods or services in connection with which the applicant intends to use the mark</li>
+                <li>The international class of goods or services, if known. See: <a href="https://www.bitlaw.com/source/37cfr/6_1.html">bitlaw.com</a></li>
+                <li>If the mark is not in standard characters, a description of the mark</li>
+                <li>If the mark includes non-English wording, an English translation of that wording</li>
+                <li>A drawing. See: <a href="https://www.uspto.gov/trademarks-getting-started/trademark-basics/mark-drawings-trademarks">USPTO.gov</a></li>
+                <li>The fee. View schedule here: <a href="https://www.law.cornell.edu/cfr/text/37/2.6">law.Cornell.edu</a></li>
+            </ul>
+            <br><br><br>
+            <h5 class="h5Class"><span class="boldedSpan">Where to File:</span></h5>
+            <br>
+            <p class="helpYourself">
+                Visit the USPTO website to learn more and take steps to file. See: <a href="https://www.uspto.gov/trademarks-getting-started/trademark-basics">USPTO.gov</a>
+                </p>
+                <br><br><br>
+                <h5 class="h5Class"><span class="boldedSpan">Process:</span></h5>
+                <br>
+                <p class="helpYourself">
+                After submission, an examiner will review your application. If the examiner denies your application, you will have six
+                months to reply or amend it. The application will then be reexamined.
+                <br><br>
+                This process may be repeated until the examiner issues a final refusal or you do not reply, amend, or appeal. If an examiner
+                approves the application, it will be published in the Official Gazette of the USPTO.
+                <br><br>
+                This gives others the opportunity to oppose the mark. Others may oppose it if they are using a similar mark and believe your mark will dilute theirs. The person 
+                or entity opposing registration will need to show likelihood of damage if your mark is registered.
+                <br><br>
+                A notice of registration will be published in the Official Gazette. Others have five years after your trademark is registered to file a petition to have
+                such registration canceled.
+                </p>
+                <br><br><br>
+                <h5 class="h5Class"><span class="boldedSpan">After Filing:</span></h5>
+                <br>
+                <p class="helpYourself">As soon as you claim your right in a particular mark, you can use the &trade; (trademark) or &#8480; (service mark) symbol.
+                However, you can only use the federal registration symbol of &reg; if the USPTO registers the mark, and the symbol with the
+                mark can then only be used in connection with the goods or services that the USPTO lists in the trademark registration.
+                </p>
+        </div>
+        <hr width="80%">
 </body>
 </html>

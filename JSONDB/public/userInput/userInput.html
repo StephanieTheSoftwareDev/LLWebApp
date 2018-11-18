@@ -18,13 +18,32 @@
 </head>
 <body>
     <div class="theWrapper">
+        <a href="http://localhost:3000">Home</a>
         <div class="uiHeader">
             <h2>Create a Guide!</h2>
+            <br>
         </div>
-    
+    <div class="displayAndFormContainer">
+        <div class="displayDiv" id="displayDiv"></div>
 
 
         <form class="uiForm" action="/" method="POST">
+            Does this node need to be connected as a choice to an existing node?
+            <br>
+            <label for="nodeChoiceBox"><input type="checkbox" id="nodeChoiceBox" name="choiceBox">Yes</label>
+            <br>
+            <div id="nodeChoiceConnectionDiv">
+                <select id="nodeChoiceSelection">
+                    <option value="" disabled selected>Please select a Node.</option>
+                </select>
+                <br><br>
+            </div>
+            <div id="nodeChoiceConnectionDiv2">
+                <select id="nodeChoiceSelection2">
+                    <option value="" disabled selected>Please select a Choice.</option>
+                </select>
+                <br><br>
+            </div>
             Name: <input type="text" id="nodeName" class="nodeName"><br><br>
             <!-- <div class="nameDisplay" id="nameDisplay"></div><br><br> -->
             <!-- Category:<br>
@@ -57,20 +76,22 @@
             </select><br><br> -->
             Header Question/Text:<br><input type="text" id="nodeText" class="nodeText" name="nodeText" placeholder='ex: "What is your favorite color?" **50 chars max.**'><br><br>
             Details:<br><textarea id="nodeDetails" class="nodeDetails" name="nodeDetails" maxlength="500" placeholder='ex: "The property possessed by an object of producing different sensations on the eye as a result of the way the object reflects or emits light." **500 chars max.**'></textarea><br><br>
-            <!-- <div class="input_fields_wrap">
+            <div class="input_fields_wrap">
                 <button type="button" class="addChoiceFieldBtn" id="addChoiceFieldBtn">Add More Choice Fields</button>
-                <div><input type="text" name="mytext[]"></div>
-            </div><br><br> -->
-            Choice 1:<br><input id="nextNodeChoice1" class="nextNodeChoice1" type="text" name="choice1" placeholder='ex: "My favorite color is green!" **30 chars max.**'><br><br>
+                <!-- <div><input type="text" name="mytext[]"></div> -->
+            </div><br><br>
+            <!-- Choice 1:<br><input id="nextNodeChoice1" class="nextNodeChoice1" type="text" name="choice1" placeholder='ex: "My favorite color is green!" **30 chars max.**'><br><br>
             Choice 2:<br><input id="nextNodeChoice2" class="nextNodeChoice2" type="text" name="choice2" placeholder='ex: "My favorite color is blue!" **30 chars max.**'><br><br>
             Choice 3:<br><input id="nextNodeChoice3" class="nextNodeChoice3" type="text" name="choice3" placeholder='ex: "My favorite color is red!" **30 chars max.**'><br><br>
             Choice 4:<br><input id="nextNodeChoice4" class="nextNodeChoice4" type="text" name="choice4" placeholder='ex: "My favorite color is blue!" **30 chars max.**'><br><br>
-            Choice 5:<br><input id="nextNodeChoice5" class="nextNodeChoice5" type="text" name="choice5" placeholder='ex: "My favorite color is red!" **30 chars max.**'><br><br>
+            Choice 5:<br><input id="nextNodeChoice5" class="nextNodeChoice5" type="text" name="choice5" placeholder='ex: "My favorite color is red!" **30 chars max.**'><br><br> -->
             <input type="submit" id="uiSubmitBtn" class="uiSubmitBtn" value="Submit">
         </form>
 
-
-
+    
+        
+    </div>
+</div>
 
     
     </div>

@@ -96,8 +96,8 @@
       "id": 5
     },
     {
-      "nodeText": "",
-      "nodeDetails": "Yes, I have a trademark issue. We can help with that!  Are you interested in…",
+      "nodeText": "Yes, I have a trademark issue. We can help with that! ",
+      "nodeDetails": "Are you interested in…",
       "nextNodes": [
         {
           "choice1": "Registering a new mark?",
@@ -106,9 +106,57 @@
         {
           "choice2": "Enforcing rights in a mark you already own?",
           "id": ""
+        },
+        {
+          "choice3": "bob",
+          "id": ""
         }
       ],
       "id": 6
+    },
+    {
+      "nodeText": "d",
+      "nodeDetails": "d",
+      "nextNodes": [
+        {
+          "id": ""
+        },
+        {
+          "id": ""
+        },
+        {
+          "id": ""
+        },
+        {
+          "id": ""
+        },
+        {
+          "id": ""
+        }
+      ],
+      "id": 7
+    },
+    {
+      "nodeText": "t",
+      "nodeDetails": "t",
+      "nextNodes": [
+        {
+          "id": ""
+        },
+        {
+          "id": ""
+        },
+        {
+          "id": ""
+        },
+        {
+          "id": ""
+        },
+        {
+          "id": ""
+        }
+      ],
+      "id": 8
     }
   ]
 }

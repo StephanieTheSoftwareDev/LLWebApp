@@ -1,5 +1,5 @@
 .boxes{
-    border: 1px solid rgb(50, 50, 50);
+    border: 1px solid rgb(52,58,64);
     height: 400px;
     width: 400px;
     display: inline-block;
@@ -8,37 +8,57 @@
     margin: 50px;
     
 }
-.boxDiv{
-    width: 1050px;
-    height: 1050px;
-    text-align: center;
-    box-sizing: border-box;
-    display: inline-block;
-}
-.guide{
-    width: 75%;
-    height: 400px;
+.IPLaw_Hut_Div{
+    height: 800px;
+    width: 100%;
     display: inline-block;
     box-sizing: border-box;
-    text-align: center;
-    border: 1px solid rgb(50, 50, 50);
+    text-align: left;
+    /* border-bottom: 2px solid rgb(52,58,64); */
     margin-top: 25px;
-    margin-bottom: 75px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+    padding-bottom: 100px;
 }
-.bottomTextBox{
-    margin-top: 50px;
-    border: 1px solid rgb(50, 50, 50);
-    width: 75%;
-    height: 200px;
-    box-sizing: border-box;
+.boxDiv{
+    height: 825px;
+    width: 100%;
     display: inline-block;
+    box-sizing: border-box;
+    text-align: left;
+    /* border-bottom: 2px solid rgb(52,58,64); */
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+    padding-bottom: 100px;
 }
-
 .wrapper{
-    padding: 25px;
+    
     text-align: center;
     height: 2000px;
     width: 100%;
     display: inline-block;
     box-sizing: border-box;
+}
+#LLPNGCopy{
+    height: 30px;
+}
+.thePageHeader{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(52,58,64);
+    /* margin-bottom: 50px; */
+}
+.boldedSpan{
+    font-weight: bold;
+}
+.topList{
+    list-style-type: none;
+}
+.helpYourself{
+    margin-left: 250px;
+    margin-right: 300px;
+}
+.h5Class{
+    margin-left: 150px;
+    margin-right: 300px;
 }
