@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<style>
+body { width:80%; margin-left:auto; margin-left:auto; 
+font-family: 'Montserrat', sans-serif; font-size:14px;}
+</style>
+
+</head>
+<body>
+<h2>LegaLucy</h2>
+
+This code is the prototype software for LegaLucy.
+
+<i> Assumed json-server started on port 3000</i>
+<pre> terminal:> json-server examples/examples.json</pre>
+
+
+<h3> Data Model</h3>
+
+Guides are content-based widgets that allow users to explore or a topic or narrow down a process to uncover which legal content is appropriate.
+<ul>
+<li> <b>Guide</b> (similar to a presentattion)
+<ul>
+<li> <b>Node </b>  (questions, videos, or text,images content, broken down into approx. paragraph junks ) 
+ <ul><li><b>choice</b>. the choices are answers or next buttons 
+<ul></ul>
+  </ul>
+</ul>
+
+</ul>
+
+<h3> Example JSON</h3>
+<pre>
+
+
+ "guide": [
+    {
+      "id": 1,
+      "name": "guide 1"
+    },
+...
+
+"node": [
+    {
+      "id": 1,
+      "guideId":1,
+      "title": "Do you have pet?",
+      "choice":  [
+               { "label": "no" , "next": 8},
+               {  "label" : "yes" , "next": 100}
+        ]
+    },
+    {
+      "id": 2,
+      "guideId": 2,
+      "title": "What fruit is it",
+      "choice":  [
+        { "label": "orange" , "next": 8},
+        {  "label" : "banana" , "next": 100}
+      ]
+
+    }
+....
+</pre>
+<a href="http://localhost:3000/guide">Guide json data set.</a>
+
+<a href="http://localhost:3000/node">Node json data set.</a>
+<br>
+
+<h3>Example Queries </h3>
+<hr>
+<h4> Get Guide titles for drop down</h4>
+<i>This returns full object; A middleware route is needed; Get all properties amd just build for title </i>
+<br>
+<a href='http://localhost:3000/guide'>http://localhost:3000/guide </a>
+
+<hr>
+
+<h4> Get a Specific Guide </h3>
+This returns the entire guide with nodes. Use this for when editing an existing guide
+<br>
+<a href='http://localhost:3000/guide/1?_embed=node'>
+http://localhost:3000/guide/1?_embed=node</a>
+
+<h4> Get all node titles for a Guide</4>
+<i>This needs middleware to filter out the extra elements.</i>
+
+<h3> Middleware</h3>
+
+Middleware will help streamline the query process and handle authorization, logging and other functionality. 
+
+
+<h3>Things to Note</h3>
+
+
+</body>
+</html>
+
